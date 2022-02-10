@@ -1,0 +1,31 @@
+.before {
+    width: 200px;
+    height: 20px;
+    margin: 100px;
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    position: relative;
+}
+
+.before::before {
+    position: absolute;
+    border-left: 10px solid;
+    border-right: 10px solid;
+    border-top: 10px solid black;
+    top: 100%;
+    left: 2px;
+    content: '';
+}
+
+.before:hover::after {
+    position: absolute;
+    border-left: 10px solid;
+    border-right: 10px solid;
+    border-top: 10px solid black;
+    top: 100%;
+    right: 2rem;
+    content: '';
+}

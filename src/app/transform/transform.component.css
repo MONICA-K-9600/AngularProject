@@ -1,0 +1,33 @@
+.body {
+    margin: 100px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    transition-duration: 1s;
+    border-radius: 5px;
+    transition-timing-function: ease-in-out;
+    transition: width 1s;
+}
+
+.box:hover {
+    width: 300px;
+    border-radius: 5px;
+    background-color: blue;
+    transform: translate(50px);
+    transition-duration: 1s;
+}
+
+.text {
+    text-transform: uppercase;
+}
+
+.text-1 {
+    text-transform: lowercase;
+}
+
+.text-2 {
+    text-transform: capitalize;
+}

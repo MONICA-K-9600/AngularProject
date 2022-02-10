@@ -1,0 +1,9 @@
+.opacity img {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+
+.opacity img:hover {
+    opacity: 0.5;
+}
